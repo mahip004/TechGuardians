@@ -1,0 +1,10 @@
+.carousel-caption {
+    top: 50%;                /* Position the caption at 50% of the height of the carousel item */
+    transform: translateY(-50%);  /* Move the caption up by 50% of its own height */
+    text-align: left;             /* Align the text to the left */
+    /* If you want the text to be centered horizontally as well, use text-align: center; */
+  }
+a{
+    color:white !important;
+    text-decoration: none !important;
+}
