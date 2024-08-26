@@ -1,9 +1,12 @@
 import React from "react";
-import "./BlueHeader.css"; 
+import "./BlueHeader.css";
 
-const BlueHeader = () => {
+const BlueHeader = ({ username }) => {
   return (
     <div className="blue-header">
+      <div className="profile-section">
+        <span className="username">{username}</span>
+      </div>
       <ul className="header-links">
         <li>
           <a href="/Home">Home</a>

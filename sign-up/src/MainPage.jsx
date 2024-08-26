@@ -9,7 +9,7 @@ const MainPage = () => {
   return (
     <>
       <Navbar />
-      <BlueHeader />
+      <BlueHeader/>
       <BannerTrending />
       <TrendingTopics />
       <Footer />
