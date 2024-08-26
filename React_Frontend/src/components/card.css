@@ -1,3 +1,39 @@
+ .card-grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns by default */
+  gap: 16px; /* Adjust spacing between cards as needed */
+  padding: 16px; /* Adjust padding around the grid */
+  position: relative;
+  top: 250px;
+}
+.carousel-container{
+  position:absolute;
+  height:250px;
+  width:100%;
+}
+@media (max-width: 1200px) {
+  .card-grid {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for medium screens */
+  }
+}
+
+@media (max-width: 900px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile screens */
+  }
+}
+
+@media (max-width: 400px) {
+  .card-grid {
+    grid-template-columns: 1fr; /* 1 column for very small screens */
+  }
+}
 .card {
   background: #fff;
   border: 1px solid #ddd;

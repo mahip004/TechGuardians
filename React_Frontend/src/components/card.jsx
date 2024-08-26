@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import "./card.css";
 import image from "../assets/main_news.png";
+
 class Card extends React.Component {
   render() {
     return (
@@ -18,12 +20,13 @@ class Card extends React.Component {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </p>
-          <a href="https://www.google.com/" className="btn btn-primary">
-            Go somewhere
-          </a>
+          <Link to="/text" className="btn btn-primary">
+            Text-Summarizer
+          </Link>
         </div>
       </div>
     );
   }
 }
+
 export default Card;

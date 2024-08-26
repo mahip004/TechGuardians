@@ -12,7 +12,9 @@ function Home() {
     <>
       <Navbar />
       <BlueHeader />
-      <Carousel_Health />
+      <div className="carousel-container">
+          <Carousel_Health/>
+        </div>
       <div className="card-grid">
         {Array.from({ length: numCards }, (_, index) => (
           <Card key={index} />

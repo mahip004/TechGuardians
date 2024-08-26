@@ -3,6 +3,13 @@
   grid-template-columns: repeat(5, 1fr); /* 6 columns by default */
   gap: 16px; /* Adjust spacing between cards as needed */
   padding: 16px; /* Adjust padding around the grid */
+  position:relative;
+  top:250px;
+}
+caroisel-container{
+  position:absolute;
+  height:250px;
+  width:100%;
 }
 
 @media (max-width: 1200px) {

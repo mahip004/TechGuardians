@@ -4,6 +4,27 @@
   border-radius: 8px;
   padding: 16px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width:15px;
+  width: 15rem; /* Update width to a reasonable size */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for scaling and shadow effects */
 }
 
+.card:hover {
+  transform: scale(1.05); /* Scale the card up when hovered */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Increase shadow to enhance the pop-up effect */
+}
+
+.card-img-top {
+  width: 100%; /* Ensure the image fits the card */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.card-body {
+  position: relative;
+  z-index: 1; /* Ensure content is above the card effect */
+}
+
+.card-body h5,
+.card-body p,
+.card-body a {
+  z-index: 1; /* Ensure text content is above the card effect */
+}

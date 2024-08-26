@@ -12,7 +12,9 @@ function Science() {
     <>
       <Navbar />
       <BlueHeader />
-      <Carousel_Science />
+      <div className="carousel-container">
+          <Carousel_Science/>
+        </div>
       <div className="card-grid">
         {Array.from({ length: numCards }, (_, index) => (
           <Card key={index} />
