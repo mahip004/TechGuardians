@@ -59,10 +59,11 @@ body{
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
+  margin-left:12rem;
 }
 
 .signup-form .terms input[type="checkbox"] {
-  margin-right: 0.5rem; /* Adjust margin for alignment */
+  margin-right: 2rem;
 }
 
 .signup-btn {

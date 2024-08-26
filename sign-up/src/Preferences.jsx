@@ -149,12 +149,12 @@ const Preferences = () => {
                         checked={preferences.SelectAll}
                         onChange={handleUnsubscribeAll}
                     />
-                    Unsubscribe From All
+                   Clear All
                 </label>
             </div>
             
             <button type="submit" className="update-button">
-                UPDATE
+                NEXT
             </button>
         </form>
     );
