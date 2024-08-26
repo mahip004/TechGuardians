@@ -12,7 +12,7 @@ const Header2 = () => {
             <button className="dropbtn">Menu</button>
             <div className="dropdown-content">
               <Link to="/contribute">Contribute</Link>
-              <Link to="/main">Explore</Link> {/* Link to MainPage */}
+              <Link to="/home">Explore</Link> {/* Link to MainPage */}
             </div>
           </li>
         </ul>

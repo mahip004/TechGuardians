@@ -75,7 +75,11 @@ body{
   }
   
   .signup-link a {
-    color: #c0738f;
+    background: linear-gradient(to right, #a67386, #ecb6a8); /* Gradient colors */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+    /* color: #c0738f; */
     text-decoration: none;
   }
  

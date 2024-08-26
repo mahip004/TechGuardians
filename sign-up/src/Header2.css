@@ -48,7 +48,7 @@
     display: none;
     position: absolute;
     right: 0;
-    background-color: #e7e1e1;
+    background: linear-gradient(to right, #555253, #f0b1a1);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(209, 206, 206, 0.2);
     z-index: 1;
@@ -62,7 +62,7 @@
   }
   
   .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #615a5a;
   }
   
   .dropdown:hover .dropdown-content {

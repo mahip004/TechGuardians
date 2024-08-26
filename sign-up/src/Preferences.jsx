@@ -42,7 +42,7 @@ const Preferences = () => {
         e.preventDefault();
         console.log('Updated Preferences:', preferences);
         // Navigate to the Main Page after updating preferences
-        navigate('/main');
+        navigate('/home');
     };
 
     return (

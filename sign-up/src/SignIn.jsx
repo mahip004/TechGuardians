@@ -24,7 +24,7 @@ const SignIn = () => {
     // Handle form submission logic here
     console.log('Sign-In Form submitted:', formData);
     // Navigate to the main page after successful sign in
-    navigate('/main');
+    navigate('/home');
   };
 
   return (

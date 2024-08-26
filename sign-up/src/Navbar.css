@@ -51,6 +51,7 @@
 
 .menu-dropdown.show {
   display: block; /* Show when toggled */
+  background: linear-gradient(to right, #555253, #f0b1a1);
 }
 
 .menu-dropdown li {
@@ -72,6 +73,6 @@
 }
 
 .menu-dropdown li:hover {
-  background-color: #c6bebe;
+  background-color:#503e45;
   border-radius: 12px;
 }

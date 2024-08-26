@@ -53,5 +53,4 @@ const WritingPage = () => {
     </div>
   );
 };
-
 export default WritingPage;

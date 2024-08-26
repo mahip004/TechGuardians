@@ -72,6 +72,15 @@ const SignUp = () => {
           />
 
           <input
+            type="tel"
+            name="phoneNumber"
+            placeholder="Phone Number"
+            value={formData.phoneNumber}
+            onChange={handleChange}
+            required
+          />
+
+          <input
             type="password"
             name="password"
             placeholder="Password"
@@ -80,14 +89,6 @@ const SignUp = () => {
             required
           />
 
-          <input
-            type="password"
-            name="repeatPassword"
-            placeholder="Repeat Password"
-            value={formData.repeatPassword}
-            onChange={handleChange}
-            required
-          />
 
           <div className="terms">
             <input 
